@@ -37,7 +37,6 @@ num = 0
 terry.penup()
 terry.speed("fastest")
 
-
 def paint_line():
     for color in range(0, 10):
         rgb_color = random.choice(color_list)
@@ -55,6 +54,8 @@ for _ in range(0, 10):
     paint_line()
     change_row(num)
 terry.hideturtle()
+
+
 
 
 screen = Screen()
